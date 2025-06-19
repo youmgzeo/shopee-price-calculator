@@ -60,8 +60,8 @@ st.markdown(
 
 col1, col2 = st.columns(2)
 with col1:
-    p_admin = st.number_input("Biaya Admin (%)", value=0.0, step=0.1) / 100
-    p_promo = st.number_input("Biaya Promo Xtra (%)", value=0.0, step=0.1) / 100
+    p_admin = st.number_input("Biaya Administrasi (%)", value=0.0, step=0.1) / 100
+    p_promo = st.number_input("Biaya Layanan Promo Xtra (%)", value=0.0, step=0.1) / 100
     p_layanan = st.number_input("Biaya Layanan Gratis Ongkir Xtra (%)", value=0.0, step=0.1) / 100
 with col2:
     p_premi = st.number_input("Biaya Premi Asuransi (%)", value=0.0, step=0.1) / 100
@@ -79,7 +79,7 @@ st.markdown(
     <div class='warning-box'>
         Masukkan jumlah penghasilan bersih yang Anda harapkan dari produk yang dijual.
         <br>Contoh: jika Anda menjual Photocard seharga <strong>Rp120.000</strong> dengan biaya packing sebesar <strong>Rp3.000</strong>,
-        maka isikan <strong>Rp123.000</strong> sebagai penghasilan bersih.
+        maka tulis <strong>Rp123.000</strong> sebagai penghasilan bersih.
         <br>Harga jual yang dihitung adalah harga yang perlu Anda pasang di Shopee.
     </div>
     """,
